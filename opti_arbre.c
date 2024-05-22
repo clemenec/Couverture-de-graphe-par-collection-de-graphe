@@ -107,6 +107,7 @@ int main() {
     Family family_F = create_F("InputF.txt");
     Graph g_couvrant;
     int isCouvrable = 0;
+    display_graph(&graph_G);
 
     for (int i = 0; i < family_F.nb_graph; i++) {
         if (family_F.graph[i].V - 1 <= min_eccentricity(graph_G)) {
