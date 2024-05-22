@@ -1,0 +1,5 @@
+graphes : 1
+
+sommets : 3
+arêtes :
+[0,1];[1,2]
